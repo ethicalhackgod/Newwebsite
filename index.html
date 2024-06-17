@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoolix - Smart Ideas for your Brand are Here</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Appithub</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Hoolix</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Welcome to Our Agency</p>
+
+            <h1 class="h1 hero-title">
+              Web, Ads, and Dropshipping Solutions.</h1>
+
+            <p class="hero-text">
+              
+              AppiHub: Specializing in web development, advertising services, and dropshipping website creation. Achieve your 
+                business goals with our expert digital solutions tailored to enhance your online presence and drive growth.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Get quotes</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">WE are the best agency to scale your business </h2>
+
+            <p class="section-text">
+              AppiHub: The best agency to scale your business. We specialize in web development, advertising services, and dropshipping website creation. Our expert team delivers tailored digital solutions designed to enhance your online presence, drive growth, and achieve your business goals. Partner with us for unparalleled success.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Utilizing the latest technologies and trends.
+              </li>
+
+              <li class="has-before">
+                Providing exceptional customer service and ongoing support.
+              </li>
+
+              <li class="has-before">
+                You will get 100% money gurrantied if we dont bring you sales .
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Know More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">3+ Years Experience</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What We Offer-</p>
+
+          <h2 class="h2 section-title text-center">Our Creative Services</h2>
+
+          <p class="section-text text-center">
+            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">UI/UX Creative Design</h3>
+
+                  <p class="card-text">
+                    At AppiHub, we provide expert UI and UX design services, creating intuitive and visually appealing user 
+                      experiences to enhance usability, engage users, and drive conversions for your digital produc
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">App Development</h3>
+
+                  <p class="card-text">
+                     At AppiHub, we offer expert app development services, creating innovative, user-friendly mobile 
+                      applications tailored to your business needs, enhancing engagement, functionality, and overall user 
+                       experience.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Ads - Service </h3>
+
+                  <p class="card-text">
+                    
+                     At AppiHub, we provide top-tier advertising services, crafting targeted ad campaigns that boost 
+                        visibility, drive traffic, and maximize conversions, ensuring your business reaches its full potential.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Dropshipping</h3>
+
+                  <p class="card-text">
+                    
+                    At AppiHub, we specialize in dropshipping solutions, helping businesses set up streamlined and efficient 
+                      online stores that maximize profitability with minimal overhead, ensuring seamless operations and 
+                       customer satisfaction.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Why Choose Us-</p>
+
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
+          <p class="section-text text-center">
+            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Ads-service </h3>
+
+                <p class="card-text">
+                  Boost visibility, drive traffic, maximize conversions.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Free 6 Month Support</h3>
+
+                <p class="card-text">
+                  Ensuring your satisfaction and success.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Customer Strategy</h3>
+
+                <p class="card-text">
+                  Tailored solutions for long-term growth and satisfaction.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Best Premimum Image</h3>
+
+                <p class="card-text">
+                  High-quality visuals that enhance your brand presence.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Most Advanced Features</h3>
+
+                <p class="card-text">
+                  Cutting-edge solutions for superior performance and functionality.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Very Reasonable Price</h3>
+
+                <p class="card-text">
+                   Affordable rates without compromising on quality.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Discover Frequently Asked Questions?</h2>
+
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    1. Does AppitHub offer flexible pricing options?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    
+                    Yes, AppitHub provides flexible pricing options tailored to accommodate various client needs and budgets. We 
+                     offer competitive pricing structures based on project scope, complexity, and desired outcomes. Our goal is 
+                      to ensure affordability while delivering high-quality services that meet and exceed client expectations.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02. How does AppitHub ensure quality in advertising services?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    
+                     AppitHub ensures quality in advertising services through meticulous strategy development, precise 
+                           targeting, and continuous optimization. We analyze market trends, audience behaviors, and campaign 
+                            performance to refine ad placements and messaging. By focusing on measurable results and client 
+                             objectives, we maximize ROI and enhance brand visibility effectively.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03.What services does AppitHub offer?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                   1. AppitHub offers a range of digital services tailored to enhance online presence and business growth. Our 
+                    core services include: <br>
+                   2. Web Development: Creating responsive, high-performance websites. <br>
+                   3. Advertising Services: Crafting targeted ad campaigns to boost visibility and conversions. <br>
+                   4. Dropshipping Website Creation: Setting up efficient online stores.  <br>
+                   5. UI/UX Design: Designing intuitive and engaging user interfaces.  <br>
+                   6. Digital Marketing: Implementing strategies for online success.  <br>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04.How does AppitHub ensure quality in advertising services?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    
+                   AppitHub ensures quality in advertising services by employing data-driven strategies and thorough market 
+                    research. We tailor ad campaigns to target specific demographics and optimize for maximum engagement and 
+                     conversions. Continuous monitoring and analysis allow us to refine and adapt strategies, ensuring 
+                      effective delivery and measurable results for our clients.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05. Does AppitHub provide ongoing support?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Yes, AppitHub provides comprehensive ongoing support to ensure continuous success for our clients. We offer 
+                      technical assistance, troubleshooting, and updates to maintain and enhance digital solutions. Our 
+                       dedicated support team is committed to addressing client needs promptly and effectively, fostering long- 
+                        term partnerships and satisfaction.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Appithub</a>
+
+          <p class="footer-text">
+            "Transforming ideas into exceptional digital experiences. Discover AppiHub."
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Merketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Development</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              Sonipat ,Haryana 
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link"> +91 9678536614</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">Sp2655071@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 Appithub | All Rights Reserved by <a href="#" class="copyright-link">Appithub</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
